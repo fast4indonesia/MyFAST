@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myprofileItem"
+            android:checked="true"
+            android:icon="@drawable/ic_action_following"
+            android:title="@string/title_myprofile" />
+
+        <item
+            android:id="@+id/mygroupItem"
+            android:checked="true"
+            android:icon="@drawable/ic_group"
+            android:title="@string/title_mygroup" />
+
+        <item
+            android:id="@+id/findItem"
+            android:checked="true"
+            android:icon="@drawable/ic_action_search"
+            android:title="@string/title_findalumni" />
+
+        <item
+            android:id="@+id/kabarItem"
+            android:checked="true"
+            android:icon="@drawable/ic_question_answer"
+            android:title="@string/title_kabar" />
+
+        <item
+            android:id="@+id/katalogItem"
+            android:checked="true"
+            android:icon="@drawable/ic_store_black_36dp"
+            android:title="@string/title_katalog" />
+
+        <item
+            android:id="@+id/pustakaItem"
+            android:checked="true"
+            android:icon="@drawable/ic_library_music_black_36dp"
+            android:title="@string/title_pustaka" />
+
+    </group>
+    <group
+        android:id="@+id/gr_fast"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/fastItem"
+            android:checked="true"
+            android:icon="@drawable/ic_action_favorite"
+            android:title="@string/title_fast" />
+
+        <item
+            android:id="@+id/pengurusItem"
+            android:checked="true"
+            android:icon="@drawable/ic_group"
+            android:title="@string/title_pengurus" />
+
+        <item
+            android:id="@+id/chapterItem"
+            android:checked="true"
+            android:icon="@drawable/ic_group"
+            android:title="@string/title_chapter" />
+
+        <item
+            android:id="@+id/beritaItem"
+            android:checked="true"
+            android:icon="@drawable/ic_chat_black_36dp"
+            android:title="@string/title_berita" />
+
+        <item
+            android:id="@+id/prokerItem"
+            android:checked="true"
+            android:icon="@drawable/ic_assignment_turned_in"
+            android:title="@string/title_proker" />
+
+        <item
+            android:id="@+id/eventItem"
+            android:checked="true"
+            android:icon="@drawable/ic_today_black_36dp"
+            android:title="@string/title_event" />
+
+        <item
+            android:id="@+id/laporanItem"
+            android:checked="true"
+            android:icon="@drawable/ic_assignment"
+            android:title="@string/title_laporan" />
+
+        <item
+            android:id="@+id/shopItem"
+            android:checked="true"
+            android:icon="@drawable/ic_shopping_cart_black_36dp"
+            android:title="@string/title_shop" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inviteItem"
+            android:checked="true"
+            android:icon="@drawable/ic_person_add"
+            android:title="@string/title_invite" />
+
+        <item
+            android:id="@+id/settingItem"
+            android:checked="true"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/title_setting" />
+
+        <item
+            android:id="@+id/aboutItem"
+            android:checked="true"
+            android:icon="@drawable/ic_info"
+            android:title="@string/title_about" />
+
+        <item
+            android:id="@+id/logoutItem"
+            android:checked="true"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/title_logout" />
+    </group>
+
+
+</menu>

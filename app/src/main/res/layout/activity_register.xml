@@ -1,0 +1,225 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/splash">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dip"
+        android:padding="20dip">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:src="@drawable/logo100" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Pendaftaran Anggota FAST"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Lebih Dekat, Lebih Manfaat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Email"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/et_password1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Password"
+            android:password="true"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/et_password2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Ulangi Password"
+            android:password="true"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Pribadi"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:hint="Nama Lengkap"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/et_hp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Handphone"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <Spinner
+            android:id="@+id/sp_jnskelamin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style" />
+
+        <EditText
+            android:id="@+id/et_tempatlahir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Tempat Lahir"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <EditText
+            android:id="@+id/et_tgllahir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Tanggal Lahir"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat Tinggal"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_alamat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/orca_login_inputfield"
+            android:hint="Alamat"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            android:text=""
+            android:textSize="14.0sp" />
+
+        <Spinner
+            android:id="@+id/sp_kabupaten"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style" />
+
+        <Spinner
+            android:id="@+id/sp_propinsi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style" />
+
+        <Spinner
+            android:id="@+id/sp_country"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/spinner_style" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/orca_login_button"
+            android:text="Daftar"
+            android:textColor="#FFFFFF"
+            android:textSize="13.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/regMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="" />
+
+    </LinearLayout>
+
+</ScrollView>
